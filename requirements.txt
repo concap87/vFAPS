@@ -1,0 +1,18 @@
+# === CORE (required) ===
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+
+# Video playback (requires mpv binary installed on system)
+python-mpv>=1.0.0
+
+# VR controller support (requires SteamVR running)
+openvr>=2.0.0
+
+# === OPTIONAL ===
+# Qt multimedia fallback - only needed if mpv is NOT installed.
+# These packages may not be available on all Python versions/platforms.
+# Install separately: pip install PyQt6-Multimedia PyQt6-MultimediaWidgets
+# If they fail to install, that's fine â€” mpv is the primary backend.
+
+# Improved math operations
+numpy>=1.24.0
